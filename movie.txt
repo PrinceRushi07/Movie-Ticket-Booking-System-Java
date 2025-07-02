@@ -1,0 +1,60 @@
+===============================
+🎬 Movie Ticket Booking System
+===============================
+
+Project Type: Console-based Java Application  
+Level: Beginner to Intermediate  
+Main Focus: Java Collections (ArrayList), Logical Flow, Menu-driven Interface  
+Programming Language: Java  
+Data Structures Used: ArrayList (from java.util package)  
+
+-------------------------------
+📌 Project Description:
+-------------------------------
+This is a simple yet effective **Movie Ticket Booking System** implemented entirely using Java and the ArrayList collection. The application mimics basic real-world booking system functionality such as:
+
+1. Adding multiple movies
+2. Booking a movie ticket (user selects a movie)
+3. Viewing all bookings
+4. Checking if a user has already booked
+5. Displaying a sublist (range) of bookings
+6. Cancelling a booking
+7. Displaying the first and last booking
+
+-------------------------------
+🔧 Technical Details:
+-------------------------------
+- Uses `ArrayList<String>` to manage both the list of movies and user bookings.
+- Fully menu-driven interaction via `Scanner` input.
+- Demonstrates the use of:
+  - `.add()`
+  - `.remove()`
+  - `.contains()`
+  - `.indexOf()`
+  - `.set()`
+  - `.subList()`
+  - `.get()`
+
+- Includes input validation (e.g., checking movie index before booking).
+- Switch-case structure for controlling user options.
+- All actions happen in memory using ArrayList.
+
+-------------------------------
+✅ Why This Project?
+-------------------------------
+✔ Good example of **real-world logic simulation**  
+✔ Demonstrates core **Java programming skills**  
+✔ Perfect for beginners practicing **Java Collections**  
+✔ Useful for interview preparation, especially for **menu-driven programs** and **data handling**  
+✔ Lightweight and easy to upgrade to more advanced systems (OOP, GUI, file/database-backed)
+
+-------------------------------
+🚀 How to Use:
+-------------------------------
+1. Clone/download the project
+2. Open `MovieTicketSystem.java` in any Java IDE or text editor
+3. Compile and run:
+
+   ```bash
+   javac MovieTicketSystem.java
+   java MovieTicketSystem
